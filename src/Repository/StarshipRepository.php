@@ -24,19 +24,30 @@ class StarshipRepository
                 status: 'taken over by Q',
             ),
             new Starship(
-                id: 1,
+                id: 2,
                 name: 'USS Espresso (NCC-1234-C)',
                 class: 'Latte',
                 captain: 'James T. Quick!',
                 status: 'repaired',
             ),
             new Starship(
-                id: 1,
+                id: 3,
                 name: 'USS WanderLust (NCC-2024-W)',
                 class: 'Delta Tourist',
                 captain: 'Kathryn Journeyway',
                 status: 'under construction',
             ),
         ];
+    }
+
+    public function find(int $id): ?Starship
+    {
+        foreach ($this->findAll() as $starship) {
+            if ($starship->getId() === $id) {
+                return $starship;
+            }
+        }
+
+        return null;
     }
 }
