@@ -9,7 +9,7 @@ use App\Repository\StarshipRepository;
 
 class MainController extends AbstractController
 {
-    #[Route('/')]
+    #[Route('/home')]
     public function homePage(StarshipRepository $starshipRepository): Response
     {
         $ships = $starshipRepository->findAll();
