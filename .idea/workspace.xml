@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abd4bfc2-9dc2-443f-bc4e-9890f277ae82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Model/StarshipStatusEnum.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MainController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Starship.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Starship.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/StarshipRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/StarshipRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main/homepage.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/homepage.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/starship/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/starship/show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -141,7 +142,7 @@
       <workItem from="1774877806170" duration="2473000" />
       <workItem from="1774883390786" duration="783000" />
       <workItem from="1774937484691" duration="2448000" />
-      <workItem from="1774939961075" duration="425000" />
+      <workItem from="1774939961075" duration="1924000" />
     </task>
     <servers />
   </component>
