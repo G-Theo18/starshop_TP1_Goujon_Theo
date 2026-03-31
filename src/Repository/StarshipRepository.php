@@ -13,29 +13,29 @@ class StarshipRepository
 
     public function findAll(): array
     {
-        $this->logger->info('collection de vaisseaux spatiaux récupérée');
+        $this->logger->info('Collection de vaisseaux récupérée');
 
         return [
             new Starship(
-                id: 1,
-                name: 'USS LeafyCruiser (NCC-0001)',
-                class: 'Garden',
-                captain: 'Jean-Luc Pickles',
-                status: 'taken over by Q',
+                1,
+                'Millennium Falcon',
+                'Light Freighter',
+                'Han Solo',
+                'Operational',
             ),
             new Starship(
-                id: 2,
-                name: 'USS Espresso (NCC-1234-C)',
-                class: 'Latte',
-                captain: 'James T. Quick!',
-                status: 'repaired',
+                2,
+                'Executor',
+                'Super Star Destroyer',
+                'Darth Vader',
+                'Destroyed',
             ),
             new Starship(
-                id: 3,
-                name: 'USS WanderLust (NCC-2024-W)',
-                class: 'Delta Tourist',
-                captain: 'Kathryn Journeyway',
-                status: 'under construction',
+                3,
+                'Ghost',
+                'Modified VCX-100',
+                'Hera Syndulla',
+                'Operational',
             ),
         ];
     }

@@ -2,10 +2,10 @@
 
 namespace App\Controller;
 
+use App\Repository\StarshipRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
-use App\Repository\StarshipRepository;
 
 class StarshipController extends AbstractController
 {
@@ -15,7 +15,7 @@ class StarshipController extends AbstractController
         $starship = $repository->find($id);
 
         if (!$starship) {
-            throw $this->createNotFoundException('Vaisseau non trouvé');
+            throw $this->createNotFoundException('Vaisseau spatial non trouvé');
         }
 
         return $this->render('starship/show.html.twig', [
