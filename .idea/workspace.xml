@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abd4bfc2-9dc2-443f-bc4e-9890f277ae82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/main/_shipStatusAside.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/StarshipStatusEnum.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/main/homepage.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/homepage.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Starship.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Starship.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/StarshipRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/StarshipRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/starship/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/starship/show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,12 +140,24 @@
       <workItem from="1774692146864" duration="6763000" />
       <workItem from="1774877806170" duration="2473000" />
       <workItem from="1774883390786" duration="783000" />
-      <workItem from="1774937484691" duration="1799000" />
+      <workItem from="1774937484691" duration="2448000" />
+      <workItem from="1774939961075" duration="425000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
